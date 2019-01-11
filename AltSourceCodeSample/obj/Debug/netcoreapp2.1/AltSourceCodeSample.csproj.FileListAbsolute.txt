@@ -1,0 +1,11 @@
+C:\Users\Chuck\source\repos\AltSourceCodeSample\AltSourceCodeSample\bin\Debug\netcoreapp2.1\AltSourceCodeSample.deps.json
+C:\Users\Chuck\source\repos\AltSourceCodeSample\AltSourceCodeSample\bin\Debug\netcoreapp2.1\AltSourceCodeSample.runtimeconfig.json
+C:\Users\Chuck\source\repos\AltSourceCodeSample\AltSourceCodeSample\bin\Debug\netcoreapp2.1\AltSourceCodeSample.runtimeconfig.dev.json
+C:\Users\Chuck\source\repos\AltSourceCodeSample\AltSourceCodeSample\bin\Debug\netcoreapp2.1\AltSourceCodeSample.dll
+C:\Users\Chuck\source\repos\AltSourceCodeSample\AltSourceCodeSample\bin\Debug\netcoreapp2.1\AltSourceCodeSample.pdb
+C:\Users\Chuck\source\repos\AltSourceCodeSample\AltSourceCodeSample\obj\Debug\netcoreapp2.1\AltSourceCodeSample.csprojAssemblyReference.cache
+C:\Users\Chuck\source\repos\AltSourceCodeSample\AltSourceCodeSample\obj\Debug\netcoreapp2.1\AltSourceCodeSample.csproj.CoreCompileInputs.cache
+C:\Users\Chuck\source\repos\AltSourceCodeSample\AltSourceCodeSample\obj\Debug\netcoreapp2.1\AltSourceCodeSample.AssemblyInfoInputs.cache
+C:\Users\Chuck\source\repos\AltSourceCodeSample\AltSourceCodeSample\obj\Debug\netcoreapp2.1\AltSourceCodeSample.AssemblyInfo.cs
+C:\Users\Chuck\source\repos\AltSourceCodeSample\AltSourceCodeSample\obj\Debug\netcoreapp2.1\AltSourceCodeSample.dll
+C:\Users\Chuck\source\repos\AltSourceCodeSample\AltSourceCodeSample\obj\Debug\netcoreapp2.1\AltSourceCodeSample.pdb
