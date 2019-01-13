@@ -36,7 +36,7 @@ namespace AltSourceCodeSample
                         }
                         catch (OverflowException)
                         {
-                            Console.WriteLine("There is a limit of for any individual deposit");
+                            Console.WriteLine("There is a limit of $2,147,483,647 for any individual deposit");
                         }
                         catch (FormatException)
                         {
@@ -57,13 +57,13 @@ namespace AltSourceCodeSample
                             else
                             {
                                 loggedInAccount.balance += withdrawal;
-                                Console.WriteLine("withdrawn $" + withdrawnString + " into account.");
+                                Console.WriteLine("Withdrawn $" + withdrawnString + " into account.");
                             }
 
                         }
                         catch (OverflowException)
                         {
-                            Console.WriteLine("There is a limit of for any individual withdrawal");
+                            Console.WriteLine("There is a limit of $2,147,483,647 for any individual withdrawal");
                         }
                         catch (FormatException)
                         {
@@ -160,9 +160,9 @@ namespace AltSourceCodeSample
             while(password == "")
             {
                 Console.WriteLine("Please enter your desired password:");
-                string desiredPassword = Console.ReadLine();
+                string desiredPassword = InputPassword();
                 Console.WriteLine("Please re-enter your desired password:");
-                string repeatedDesiredPassword = Console.ReadLine();
+                string repeatedDesiredPassword = InputPassword();
                 if (desiredPassword == repeatedDesiredPassword)
                 {
                     password = desiredPassword;
@@ -178,7 +178,7 @@ namespace AltSourceCodeSample
             Console.WriteLine("Please enter your user name:");
             string userName = Console.ReadLine();
             Console.WriteLine("Please enter your password:");
-            string password = Console.ReadLine();
+            string password = InputPassword();
             Account loggedInAccount = null;
             foreach(Account account in accounts)
             {
@@ -207,6 +207,34 @@ namespace AltSourceCodeSample
             Console.WriteLine("Check Balance ~ check how much money you have in your account");
             Console.WriteLine("LogOut ~ Log out");
             Console.WriteLine("Quit ~ ends session");
+        }
+
+        public static string InputPassword()
+        {
+            string pass = "";
+            do
+            {
+                ConsoleKeyInfo key = Console.ReadKey(true);
+                if (key.Key != ConsoleKey.Backspace && key.Key != ConsoleKey.Enter)
+                {
+                    pass += key.KeyChar;
+                    Console.Write("*");
+                }
+                else
+                {
+                    if (key.Key == ConsoleKey.Backspace && pass.Length > 0)
+                    {
+                        pass = pass.Substring(0, (pass.Length - 1));
+                        Console.Write("\b \b");
+                    }
+                    else if (key.Key == ConsoleKey.Enter)
+                    {
+                        break;
+                    }
+                }
+            } while (true);
+            Console.WriteLine("");
+            return pass;
         }
 
         public class Account
