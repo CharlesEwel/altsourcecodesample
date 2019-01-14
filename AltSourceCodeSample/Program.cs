@@ -59,7 +59,9 @@ namespace AltSourceCodeSample
                         ListLoggedInInputs();
 
                     }
-                } else
+                }
+                //Here are the logged out functions, which are creating a new account of logging in
+                else
                 {
                     if (command == "createaccount")
                     {
@@ -219,6 +221,7 @@ namespace AltSourceCodeSample
 
         public static void ListTransactionHistory(Account account)
         {
+            Console.WriteLine("Here is your transaction history, presented in reverse chronological order:");
             int historyLength = account.transactionHistory.Count;
             for (int i = 0; i<historyLength; i++)
             {
