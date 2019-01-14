@@ -16,7 +16,9 @@ Charles Ewel
 ## Instructions
 
 * Clone the repository
-* Open Program.cs in visual studio and run it
+* Navigate into the folder containing Program.exe via command line and execute >./program
+* (Note) Sometimes anti-virus software will prompt that it doesn't recognize our executable, and running as an administrator may be necessary
+* (Alternately) Open Program.cs in visual studio and run program.cs from there
 
 ## Contacts
 
