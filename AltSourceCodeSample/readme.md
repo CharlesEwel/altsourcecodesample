@@ -1,9 +1,8 @@
-# Title - Bank of Charlie
+# Bank of Charlie
 
 #### Description
 
-A console application that emulates a bank. Allows users to create and log into accounts, and then withdraw, deposit, check balances and view their transaction history
-Made for a code sample for AltSource
+A console application that emulates a bank. Allows users to create and log into accounts, and then withdraw, deposit, check balances and view their transaction history. Made for a code sample for AltSource
 
 #### Author(s)
 Charles Ewel
