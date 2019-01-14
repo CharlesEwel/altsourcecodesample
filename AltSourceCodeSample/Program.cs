@@ -280,6 +280,7 @@ namespace AltSourceCodeSample
             return pass;
         }
 
+        //This class servers as the blueprint for setting up new accounts
         public class Account
         {
             public string username { get; set; }
